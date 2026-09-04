@@ -1,0 +1,11 @@
+[build-system]
+requires=["setuptools>=68"]
+build-backend="setuptools.build_meta"
+[project]
+name="debugforge"
+version="0.1.0"
+description="Debug message filtering helpers"
+requires-python=">=3.9"
+license={text="MIT"}
+[tool.pytest.ini_options]
+pythonpath=["src"]
